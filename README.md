@@ -5,7 +5,10 @@ Emurgo-backend-service
 
 1. run `_npm install_`
 2. run `npm run start` (it will start the server at [localhost](http://localhost:3000/)). 
-3. To hit the api in Postman where you can use `http://localhost:3010/api/articles/` endpoint.  
+3. To hit the api in Postman where you can use `http://localhost:3010/api/articles` endpoint.  
+    ----
+    example of url after adding queryParams `http://localhost:3010/api/articles?apiKey=ae119c44d751710f5c84f08d3bc19dec&searchKey=modi&count=2&lang=en&country=ind`
+    ----
   - OR.   
     Curl command to hit the api:  
     `curl --location 'http://localhost:3010/api/articles?apiKey=ae119c44d751710f5c84f08d3bc19dec&searchKey=modi&count=2&lang=en&country=ind'`
