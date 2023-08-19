@@ -10,7 +10,7 @@ Emurgo-backend-service
   - OR.   
     Curl command to hit the api:  
     `curl --location 'http://localhost:3010/api/articles?apiKey=ae119c44d751710f5c84f08d3bc19dec&searchKey=modi&count=2&lang=en&country=ind'`
-
+4. Find api key in the .env file
 # Tools and their Versions
 
 1. Node.js v20.4.0.
