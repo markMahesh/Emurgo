@@ -1,0 +1,2 @@
+curl --location 'http://localhost:3010/api/articles?apiKey=ae119c44d751710f5c84f08d3bc19dec&searchKey=modi&count=2&lang=en&country=ind'
+
